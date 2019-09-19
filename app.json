@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Layne",
+    "slug": "dav-app",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+        "ios": {
+      "supportsTablet": true
+    },
+    "android":{
+
+      "package": "com.example.appcaio"
+    }
+    
+  }
+}
