@@ -4,9 +4,7 @@
     "slug": "dav-app",
     "privacy": "public",
     "sdkVersion": "34.0.0",
-    "platforms": [
-      "android"
-    ],
+    "platforms": ["android"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -18,16 +16,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "assets/*"
-    ],
-        "ios": {
+    "assetBundlePatterns": ["assets/*"],
+    "ios": {
       "supportsTablet": true
     },
-    "android":{
-
+    "android": {
       "package": "com.example.appcaio"
     }
-    
   }
 }
